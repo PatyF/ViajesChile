@@ -1,0 +1,288 @@
+<!--/**
+ * Desafio Latam 
+ * @version v.1.0
+ * @license Apache-2.0
+ * @copyright 2021
+ * Patricia Fornazzari
+ */
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile </title>
+    <meta name="author" content="Patricia Fornazzari" />
+    <meta name="description" content="Desafio Latam Ux/UI Ricomida Nº6" />
+    <meta
+      name="ke
+    <meta name="copyright" content="Patricia Fornazzari" />
+    <!--CSS de Bootstrap 4.2.1-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin:400,700|Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://www.jqueryscript.net/demo/One-Page-Scroll-Navigation-Plugin-with-jQuery-pageNav/jquery.pagenav.js"></script>
+    <script src="assets/js/script.js" async></script>
+  
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-top">
+          <div class="container marca">
+            <a class="navbar-brand" href="#" width="137" height="46">
+                <img src="./assets/img/viajes.svg" class="logo">  Viajes Chile
+            </a>
+  
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#quienessomos">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#destacado">Descatados</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    
+
+
+      </header>
+  
+      <section id="slider">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./assets//img/carousel1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/img/carousel2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/img/carousel3.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </section>
+    
+      <section id="quienessomos">
+          <h1><i class="fas fa-arrow-circle-right"></i>  Quienes Somos</h1>
+          <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 text-center" >
+                <span style="font-size: 3em; color: Tomato;"">
+                    <i class="fas fa-route "></i>
+                  </span>
+               <p class="justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae felis viverra, dignissim quam ut, aliquet arcu. Suspendisse potenti. Donec blandit ligula metus, nec lobortis sem scelerisque vel. Nam cursus mollis arcu tincidunt consequat. Nulla at velit sit amet erat eleifend varius eget sed lorem. Integer facilisis pretium urna, ac auctor ligula semper dictum. Nunc viverra, justo quis commodo fermentum, urna nulla egestas orci, sed accumsan purus ligula in odio. Aliquam nibh lectus, elementum sodales iaculis ac, tempor eu risus. Donec egestas, arcu sed interdum tempor, elit nisi commodo nisi, vel lobortis urna nibh in nunc. Nullam mollis rhoncus aliquam. Integer sed elit in magna aliquam venenatis. Phasellus quis nisl enim. Nullam risus massa, sagittis eget leo a, fringilla convallis felis. Fusce quis felis tellus.
+            </p>
+              </div>
+
+
+              <div class="col-lg-6 col-sm-12 col-md-12 text-center">
+                <img src="./assets/img/viajes.svg" class="img-fluid" alt="Responsive image">
+                <br><br>
+                <a href="#contacto">
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Agendar ahora para tus vacaciones 2022!">
+                   Agendar Vacaciones
+                  </button>
+                </a>
+              </div>
+
+
+
+          </div>
+
+          <br>
+          <br>
+          <div class="row" id="somos_extension">
+              <div class="col">
+                <p class="justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae felis viverra, dignissim quam ut, aliquet arcu. Suspendisse potenti. Donec blandit ligula metus, nec lobortis sem scelerisque vel. Nam cursus mollis arcu tincidunt consequat. Nulla at velit sit amet erat eleifend varius eget sed lorem. Integer facilisis pretium urna, ac auctor ligula semper dictum. Nunc viverra, justo quis commodo fermentum, urna nulla egestas orci, sed accumsan purus ligula in odio. Aliquam nibh lectus, elementum sodales iaculis ac, tempor eu risus. Donec egestas, arcu sed interdum tempor, elit nisi commodo nisi, vel lobortis urna nibh in nunc. Nullam mollis rhoncus aliquam. Integer sed elit in magna aliquam venenatis. Phasellus quis nisl enim. Nullam risus massa, sagittis eget leo a, fringilla convallis felis. Fusce quis felis tellus.
+                </p>
+              </div>
+
+              <div class="col">
+                <p class="justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae felis viverra, dignissim quam ut, aliquet arcu. Suspendisse potenti. Donec blandit ligula metus, nec lobortis sem scelerisque vel. Nam cursus mollis arcu tincidunt consequat. Nulla at velit sit amet erat eleifend varius eget sed lorem. Integer facilisis pretium urna, ac auctor ligula semper dictum. Nunc viverra, justo quis commodo fermentum, urna nulla egestas orci, sed accumsan purus ligula in odio. Aliquam nibh lectus, elementum sodales iaculis ac, tempor eu risus. Donec egestas, arcu sed interdum tempor, elit nisi commodo nisi, vel lobortis urna nibh in nunc. Nullam mollis rhoncus aliquam. Integer sed elit in magna aliquam venenatis. Phasellus quis nisl enim. Nullam risus massa, sagittis eget leo a, fringilla convallis felis. Fusce quis felis tellus.
+                </p>
+              </div>
+
+          </div>
+
+          
+      </section>
+
+      <section id="destacado">
+        <div class="card-deck">
+            <div class="card block">
+              <img
+                class="card-img-top"
+                src="assets/img/card1.jpg"
+                alt="card-1"
+              />
+              <div class="card-body">
+                <h5 class="card-title" id="pucon">
+                  PUCÓN
+                </h5>
+                <p class="card-text justify" id="contenido_pucon">
+                    Praesent ut sollicitudin ipsum. Duis faucibus erat sed lacinia tristique. Praesent id efficitur augue. In hac habitasse platea dictumst. Maecenas massa diam, ornare ut tellus id, molestie.
+                </p>
+
+                <p>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modalvideo">Ver Video</button>
+                </p>
+
+                
+              </div>
+            </div>
+            <div class="card block">
+              <img
+                class="card-img-top"
+                src="assets/img/card2.jpg"
+                alt="card-2"
+              />
+              <div class="card-body">
+                <h5 class="card-title" id="geysers">GEYSERS DEL TATIO</h5>
+                <p class="card-text justify" id="contenido_geysers">
+                    Praesent ut sollicitudin ipsum. Duis faucibus erat sed lacinia tristique. Praesent id efficitur augue. In hac habitasse platea dictumst. Maecenas massa diam, ornare ut tellus id, molestie.              </p>
+
+                    <p>
+
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modalvideo">Ver Video</button>
+                    </p>
+              </div>
+            </div>
+            <div class="card block">
+              <img
+                class="card-img-top"
+                src="assets/img/card3.jpg"
+                alt="card-3"
+              />
+              <div class="card-body">
+                <h5 class="card-title" id="sanpedro">SAN PEDRO DE ATACAMA</h5>
+                <p class="card-tex justifyt" id="contenido_sanpedro">
+                    Praesent ut sollicitudin ipsum. Duis faucibus erat sed lacinia tristique. Praesent id efficitur augue. In hac habitasse platea dictumst. Maecenas massa diam, ornare ut tellus id, molestie.
+                </p>
+
+                <p>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modalvideo">Ver Video</button>
+                </p>
+              </div>
+            </div>
+            <div class="card block">
+                <img
+                  class="card-img-top"
+                  src="assets/img/card4.jpg"
+                  alt="card-3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title" id="torrespaine">TORRES DEL PAINE</h5>
+                  <p class="card-text justify" id="contenido_torrespaine">
+                    Praesent ut sollicitudin ipsum. Duis faucibus erat sed lacinia tristique. Praesent id efficitur augue. In hac habitasse platea dictumst. Maecenas massa diam, ornare ut tellus id, molestie.</p>
+                    <p>
+
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modalvideo">Ver Video</button>
+                    </p>
+                </div>
+              </div>
+          </div>
+        
+
+      </section>
+      <section id="contacto">
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/mSbaZUGI?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+      </section>
+
+      <footer>
+          <div class="row footer">
+              <div class="col-lg-8" >
+                 <h2> Viajes Chile</h2>
+              </div>
+              <div class="col-lg-4">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"> <i class="fab fa-instagram"></i></a>
+                    <a href="https://www.github.com" target="_blank"> <i class="fab fa-github"></i></a>
+              </div>
+          </div>
+      </footer>
+
+      <div class="modal fade modalvideo" tabindex="-1" role="dialog" aria-labelledby="modalvideo" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+        
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/6kck9nJaejc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!--/**
+ * Desafio Latam 
+ * @version v.1.0
+ * @license Apache-2.0
+ * @copyright 2021
+ * Patricia Fornazzari
+ */
+-->
+
+.navbar-fixed-top.scrolled {
+  background-color: black !important;
+  transition: background-color 200ms linear;
+}
+
+.logo{
+    width: 60px;
+}
+
+nav a{
+    color: white;
+}
+
+.slider{
+    height: 100vh;
+}
+
+.card-img-top{
+    height: 150px;
+}
+#quienessomos{
+    width: 80%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.justify{
+    text-align: justify;
+}
+
+
+#destacado{
+    width: 90%;
+    margin: auto;
+    padding: 3rem;
+}
+
+
+.block {
+    position: relative;
+    margin: 50px 20px 0;
+   
+  }
+  
+  .block:before,
+  .block:after {
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(
+      95deg,
+      #fb9303,
+      #ff3d2f,
+      #23aef2,
+      #01bda2,
+      #85bd43
+    );
+    background-size: 400%;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    z-index: -1;
+    animation: steam 30s linear infinite;
+    border-radius: 20px;
+    display: block;
+  }
+
+
+  footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+  }
+
+
+  .footer{
+    margin: auto;
+    align-items: center;
+    height: 100%;
+  }
+
+  .footer i{
+    padding: 1rem;
+    font-size: 2em;
+    color: white;
+  }
+  
+@keyframes steam {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .block:after {
+    filter: blur(0px);
+  }
+
+
+  @media  screen and (max-width: 600px) {
+      #somos_extension {
+          display: none;
+      }
+  }
