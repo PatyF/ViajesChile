@@ -1,12 +1,3 @@
-<!--/**
- * Desafio Latam 
- * @version v.1.0
- * @license Apache-2.0
- * @copyright 2021
- * Patricia Fornazzari
- */
--->
-
 $(function () {
     $(document).scroll(function () {
       var $nav = $(".navbar-fixed-top");
